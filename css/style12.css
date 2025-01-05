@@ -1,0 +1,96 @@
+body {
+    background-image: url('berserk.png');
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.left-section .over-me {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contactme {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.left-section .home {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+}
+
+.contact-form-container {
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+}
